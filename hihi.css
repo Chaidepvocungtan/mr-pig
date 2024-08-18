@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;  
+}
+.text-deco{
+    text-decoration: none;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__left{
+    width: 136px;
+}
+.caidautien {
+    border: 0;
+    max-width: 60px;
+    height: auto;
+    max-height: 60px;
+    vertical-align: middle;
+}
+.header__logo span {
+    text-indent: -99999px;
+    display: inline-block;
+}
+.text-center {
+    text-align: center;
+}
+.header__left{
+    padding: 15px 0;
+    float: left;
+}
+.header__right {
+    float: right;
+    padding: 15px 0;
+    display: flex;
+}
+/*thanh cong cu*/
+.menu{
+    margin: 0 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.login{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+    margin: 0 10px;
+}
+.hotline{
+    margin: 0 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*tool&cac muc chuc nang*/
+#tool{
+    position: static;
+    height: auto;
+    width: auto;
+    transform: none;
+    background: transparent;
+    text-align: center;
+    margin-top: 15px;
+}
+#tool .inner-tool {
+    padding: 0;
+    height: auto;
+    overflow-y: visible;
+}
+.inner-menu {
+    padding: 60px 0 95px 0;
+    height: 100%;
+    overflow-y: auto;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#tool li {
+    display: inline-block;
+    padding: 0;
+    margin-left: -4px;
+}
+#tool li a {
+    color: #262626;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 12px;
+    position: relative;
+    text-decoration: none;
+}
+#tool li a span {
+    position: relative;
+    display: inline-block;
+}
+/*slideshow*/
+.phanchuyenanh{
+    display: flex;
+    justify-content: center;
+    margin: 15px 50px; 
+}
+.Phanmuc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* crl+/ la chuthich */
+.noi_tinh_yeu_bat_dau{
+    display: flex;
+    justify-content: center;
+}
+.giay{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    max-width: 300px;
+}
+.thanks{
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+}
+.anh_sanpham{
+    overflow: hidden;
+}
+.imghover{
+    transition: transform 0.25s;
+}
+.anh_sanpham:hover .imghover{
+    transform: scale(1.1);
+}
+.brand{ 
+        display: none;     
+}
+.brand{ 
+    z-index: 999;
+}
+.sanpham:hover .brand{
+    display: block;
+}
+.hinhanhlogin:hover .xuxu{
+    display: block;
+}
+.xuxu a:hover {
+    background: #f0f0f0; 
+}
+.xuxu a {
+    display: block; 
+    padding: 10px; 
+    color: #333;
+    text-decoration: none;
+    background-color: white;
+    
+}
+.xuxu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 0;
+}
+.login {
+    position: relative;
+    display: inline-block;
+}
+.hinhanhlogin {
+    position: relative;
+}
+.box-icon {
+    display: block;
+   cursor: pointer;
+}
+
+
+
+
+
+
+

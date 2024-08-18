@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300,400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background: url(https://wallpaper.dog/large/11000087.jpg) no-repeat ;
+    color: white;
+}
+form{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: grey;
+}
+#vong_ngoai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 2000;
+}
+input{
+    height: 50px;
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(181, 114, 214);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: inherit;
+}
+.dienthongtin{
+    margin-bottom: 15px;
+    position: relative;
+}
+.nut_bam{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nut_bam:hover {
+    background-color: #e74c3c;
+}
+.nut_bam{
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}

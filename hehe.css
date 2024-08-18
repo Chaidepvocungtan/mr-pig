@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300,400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background: url(https://www.irun.ca/wp-content/uploads/2021/05/wp4020906-sneakers-wallpapers.jpeg) no-repeat;
+    color: cadetblue;
+}
+form{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: wheat;
+}
+#vong_ngoai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+}
+/* 80% độ công màn hình */
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 2000;
+}
+input{
+    height: 50px;
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(58, 147, 150);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: inherit;
+}
+.dienthongtin{
+    margin-bottom: 15px;
+    position: relative;
+}
+.nut_bam{
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nut_bam:hover {
+    background-color: #f1dfdc;
+}
